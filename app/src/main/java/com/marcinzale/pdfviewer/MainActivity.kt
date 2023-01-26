@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
 
         read_pdf_btn = findViewById(R.id.read_pdf_btn)
         read_pdf_btn.setOnClickListener{
-            val intent = Intent(this@MainActivity, ViewPdfActivity)
+//            val intent = Intent(this@MainActivity, ViewPdfActivity)
         }
     }
 }
