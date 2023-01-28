@@ -13,8 +13,10 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         read_pdf_btn = findViewById(R.id.read_pdf_btn)
+
         read_pdf_btn.setOnClickListener{
-//            val intent = Intent(this@MainActivity, ViewPdfActivity)
+            val intent = Intent(this@MainActivity, ViewPdfActivity::class.java)
+            startActivity(intent)
         }
     }
 }
